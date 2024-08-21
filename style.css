@@ -348,6 +348,7 @@ body {
 .section-2 .section2-conter p {
   font-size: 13px;
   color: #555555;
+  text-align: center;
 }
 
 /* section-3 start  */
@@ -629,6 +630,7 @@ body {
 .section-5 .section-5contenr p {
   font-size: 15px;
   color: #555555;
+  text-align: center;
 }
 
 /* section 5 cards  */
@@ -756,6 +758,7 @@ body {
 .section-6 .section-6contenr .section-6top p {
   font-size: 13px;
   color: #555555;
+  text-align: center;
 }
 
 .section-6 .section-6contenr .section-6bottom {
@@ -1113,7 +1116,7 @@ width: 100%;
   {
     
     height: 85vh;
-    background-color: rebeccapurple;
+   
   }
   .section-6 .section-6contenr .section-6bottom .input 
   {
@@ -1136,5 +1139,45 @@ width: 100%;
   .section-6 .section-6contenr .section-6bottom .button button
   {
 height: 45px;
+  }
+  .section-7 
+  {
+    height: 90vh;
+  }
+  .section-7 .section-7contented
+  {
+    width: 100%;
+    height: 87vh;
+    flex-direction: column;
+  }
+  .section-7 .section-7contented .section-7right
+  {
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    margin-top: -10vh;
+  }
+  .section-8cards
+  {
+    height: 90vh;
+  }
+  .section-8cards .card-item-contener
+  {
+    height: 85vh;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section-8cards .card-item-contener .card-items
+  {
+    
+  }
+  .section-5
+  {
+    width: 100%;
+   
+  }
+  .section-5 .section-5contenr
+  {
+    width: 75%;
   }
 }
